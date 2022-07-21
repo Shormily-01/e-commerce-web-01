@@ -1,0 +1,198 @@
+
+/* xl device*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   #sandwich  .sandwich_slider .next_arrow{
+      right: 24%;
+   }
+   #art_cake .art_cake_img{
+      margin-top: 60px;
+   }
+}
+/* lg device*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+   #banner .banner_content{
+      height: 650px;
+   }
+   #sandwich{
+      height: 1000px;
+   }
+   #sandwich  .sandwich_slider .next_arrow{
+      right: 48%;
+   }
+}
+/* sm device*/  
+@media (min-width: 576px) and (max-width: 767.98px) {
+   #banner .banner_content{
+      height: 500px;
+   } 
+   #banner .banner_text h1{
+      font-size: 40px;
+      margin-bottom: 20px;
+      letter-spacing: 5px;
+  }
+  #banner .banner_text p{
+      font-size: 12px;
+      margin-bottom: 50px;
+      letter-spacing: 3px;
+  }
+  #banner .banner_text a{
+      padding: 8px 15px;
+      transition: all .3s linear;
+  } 
+  .borderbottom{
+   bottom: -20px;
+}
+#art_cake{
+   margin: 40px 0;
+}
+#tasty_pancake{
+   height: 600px;
+}
+#tasty_pancake  .pre_time{
+   right: 5%;
+}
+#sandwich{
+   height: 1100px;
+}
+#sandwich  .sandwich_slider .next_arrow{
+   right: 32%;
+}
+}
+/* xsm device*/  
+@media (max-width: 575.98px){
+   #banner .banner_content{
+      height: 300px;
+   } 
+   #banner .banner_text h1{
+      font-size: 20px;
+      margin-bottom: 10px;
+      letter-spacing: 3px;
+  }
+  #banner .banner_text p{
+      font-size: 10px;
+      margin-bottom: 30px;
+      letter-spacing: 2px;
+  }
+  #banner .banner_text a{
+      padding: 6px 8px;
+      font-size: 12px;
+  } 
+  .borderbottom{
+   bottom: -10px;
+   }
+   #art_cake{
+      margin-top: 30px;
+      margin-bottom: 120px;
+   }
+   #art_cake .art_cake_text h6{
+      margin-bottom: 20px;
+   }
+   #art_cake .art_cake_text .paragraph{
+      font-size: 12px;
+      padding: 0 30px;
+   }
+   #art_cake .seal{
+      top: 93%;
+      left: 13%;
+   }
+   #tasty_pancake{
+      background-image: none;
+   }
+   #tasty_pancake .pancake_content{
+      background-image: url(../img/tastycakes2.png);
+      height: 580px;
+      width: 260px;
+   }
+   #tasty_pancake .pancake_info{
+      margin-top: 120%;
+      margin-left: 0;
+   }
+   #tasty_pancake .pancake_content{
+      top: 0;
+   }
+   #tasty_pancake .tasty_pancake_slider .priv_arrow{
+      left: -9px;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+   }
+   #tasty_pancake .tasty_pancake_slider .next_arrow{
+      right: 16px;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+   }
+   #tasty_pancake .pancake_info h5{
+      font-size: 10px ;
+      color: #df7f32;
+      margin-left: 5px;
+   }
+   #tasty_pancake  .pre_time{
+      bottom: -10%;
+      right: 14px;
+   }
+   #breakfast{
+      margin-top: 30px;
+      margin-bottom: -18px;
+      height: 600px;
+   }
+   #breakfast .breakfastTitle{
+      line-height: 30px;
+   }
+   #breakfast .breakfastTitle .breakfastName{
+      font-size: 45px;
+      letter-spacing: 2px;
+   }
+   #breakfast .breakfastTitle .breakfastTime{
+      font-size: 18px;
+   }
+   #breakfast .breakfastTitle span{
+      font-size: 35px;
+   }
+   #breakfast .menu_item p{
+      font-size: 18px;
+      color: #df7f32;
+   }
+   #sandwich .sandwich_title h2{
+      font-size:25px;
+      letter-spacing: 0;
+   }
+   #sandwich .sandwich_title p{
+      font-size: 13px;
+   }
+   #sandwich .sandwich_item p{
+      color: #615f5f;
+      font-size: 12px;
+      padding: 0 20px;
+   }
+   #sandwich .sandwich_slider {
+      margin-left: 8%;
+    }
+    #sandwich  .sandwich_slider img{
+      margin-top: 20px;
+      border: none;
+   }
+   #sandwich  .sandwich_slider .priv_arrow{
+      top: 48%;
+      left: -13%;
+      width: 30px;
+      height: 30px;
+      line-height: 26px;
+      font-size: 16px;
+   }
+   #sandwich  .sandwich_slider .next_arrow{
+      top: 48%;
+      right: -13%;
+      width: 30px;
+      height: 30px;
+      line-height: 26px;
+      font-size: 16px;
+   }
+   #sandwich .overlay_time{
+      width: 270px;
+   }
+   #sandwich .overlay_time .timing h5{
+      font-size: 12px;
+   }
+
+}

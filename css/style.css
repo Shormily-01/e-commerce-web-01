@@ -1,0 +1,465 @@
+/* Common css Start */
+body{
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Playfair Display', serif;
+ }
+ h1,h2,h3,h4,h5,h6,
+ p,
+ ul,ol,
+ span,
+ small{
+    margin: 0;
+    padding: 0;
+ }
+ a,a:hover{
+    text-decoration: none;
+ }
+ .form-control{
+    border: none;
+ }
+ .form-control:focus{
+    box-shadow: none;
+    border: none;
+    border-color: transparent;
+ }
+ /* //Common css End */
+ /* banner section start*/
+ #nav{
+    background-color: rgb(26, 25, 25, .4);
+    border-bottom: 1px solid white;
+ }
+ #nav .navbar-toggler{
+    color: white !important;
+ }
+ #main_menu ul li a{
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 12px 20px;
+    transition: all .3s linear;
+    letter-spacing: 3px;
+ }
+ #main_menu ul li:hover a{
+    color: #df7f32;
+    box-shadow: 0 0 7px 1px white;
+ }
+.icons li{
+    color: white;
+    font-size: 20px;
+    padding: 0 10px;
+    transition: all .3s linear;
+    cursor: pointer;
+}
+.icons li:hover{
+    color: #df7f32;
+ }
+#nav h4{
+    color: white;
+}
+ /*Nav section End*/
+ 
+ /*Banner section Start*/
+ #banner .banner_content{
+    height: 728px;
+    position: relative;
+    z-index: 1;
+    background-size: cover !important;
+    background-position: center !important;
+  }
+  #banner .banner_content::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    display: flex;
+    background-color: rgba(5, 5, 5, 0.3);
+    z-index: -1;
+  }
+  #banner .banner_text h1,
+  #banner .banner_text p{
+      color: white;
+      text-shadow: 40px 10px 10px black;
+  }
+  #banner .banner_text h1{
+      font-size: 60px;
+      margin-bottom: 40px;
+      font-weight: 700;
+      letter-spacing: 8px;
+  }
+  #banner .banner_text p{
+      font-size: 20px;
+      letter-spacing: 4px;
+      margin-bottom: 70px;
+  }
+  #banner .banner_text a{
+      text-transform: uppercase;
+      font-weight: 700;
+      color: white;
+      border: 2px solid white;
+      padding: 10px 20px;
+      transition: all .3s linear;
+  }
+  #banner .banner_text a:hover{
+     background-color: #df7f32;
+  }
+  .borderbottom{
+     position: absolute;
+     bottom: -45px;
+  }
+ /* //Banner section End*/
+/* Art cahke section Start*/
+#art_cake{
+   margin: 70px 0;
+}
+#art_cake .art_cake_text{
+   text-align: center;
+   font-weight: 700;
+}
+#art_cake .art_cake_text h2{
+   font-weight: 700;
+   color: #56534c;
+}
+#art_cake .art_cake_text h6{
+   font-weight: 700;
+   color: #a47d5e;
+   margin-bottom: 30px;
+}
+#art_cake .art_cake_text .paragraph{
+   font-family: ProximaNova;
+   padding: 0 80px;
+   margin-bottom: 10px;
+}
+#art_cake .art_cake_text h5{
+   font-family: Alegreya;
+   font-weight: 700;
+   font-size: 28px; 
+   color: #56534c;
+}
+#art_cake .art_cake_text .chef_name{
+   font-family: Alegreya;
+   font-size: 20px;
+   color: #56534c;
+}
+#art_cake .art_cake_img{
+   position: relative;
+}
+#art_cake .seal{
+   height: 200px;
+   width: 200px;
+   position: absolute;
+   top: 25%;
+   left: 32%;
+}
+/* Art cahke section End*/
+/* Tasty Pancake start*/
+#tasty_pancake{
+   margin-bottom: -20px;
+   background-image: url(../img/bg1.png);
+   height: 728px;
+   position: relative;
+   z-index: 1;
+   background-size: cover !important;
+   background-position: center !important;
+}
+#tasty_pancake .pancake_content{
+   position: absolute;
+   top: 25%;
+}
+#tasty_pancake .pancake_content img{
+   height: 400px;
+}
+#tasty_pancake .tasty_pancake_slider_item img{
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   border: 2px solid #df7f32;
+}
+#tasty_pancake .tasty_pancake_slider_item{
+   position: relative;
+}
+#tasty_pancake .tasty_pancake_slider .priv_arrow{
+   position: absolute;
+   top: 30%;
+   left: -20px;
+   color: #56534c;
+   border: 1px solid #56534c;
+   font-size: 12px;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+   text-align: center;
+   line-height: 25px;
+   display: inline-block;
+   cursor: pointer;
+   z-index: 99;
+   transition: all linear .4s;
+ }
+ #tasty_pancake .tasty_pancake_slider .priv_arrow:hover{
+   background: #df7f32;
+   color: white;
+   border-color: #df7f32;
+}
+#tasty_pancake .tasty_pancake_slider .next_arrow{
+   position: absolute;
+   top: 30%;
+   right: -10px;
+   color: #56534c;
+   border: 1px solid #56534c;
+   font-size: 12px;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+   text-align: center;
+   line-height: 25px;
+   display: inline-block;
+   cursor: pointer;
+   z-index: 99;
+   transition: all linear .4s;
+ }
+ #tasty_pancake .tasty_pancake_slider .next_arrow:hover{
+   background: #df7f32;
+   color: white;
+   border-color: #df7f32;
+}
+#tasty_pancake .pancake_content{
+margin-top: 15%;
+background-image: url(../img/tastycakes.png);
+height: 300px;
+width: 650px;
+position: relative;
+z-index: 1;
+background-size: cover !important;
+background-position: center !important;
+}
+#tasty_pancake .pancake_info{
+   margin-top: 35px;
+   margin-left: 50%;
+}
+#tasty_pancake .pancake_info h2{
+   font-family: Alegreya;
+   font-weight: 700;
+   color: #56534c;
+}
+#tasty_pancake .pancake_info h5{
+   font-family: Alegreya;
+   font-weight: 700;
+   color: #df7f32;
+   margin-left: 5px;
+}
+#tasty_pancake .pancake_info p{
+   font-family: Alegreya;
+   color: #615f5f;
+   padding: 20px 0;
+}
+#tasty_pancake  .pancake_content{
+   position: relative;
+}
+#tasty_pancake  .pre_time{
+   background-color: #df7f32;
+   border: 3px solid white;
+   box-shadow: 3px 0 4px black;
+   height: 140px;
+   width: 140px;
+   line-height: 50%;
+   border-radius: 50%;
+   position: absolute;
+   bottom: -25%;
+   right: 10px;
+   text-align: center;
+   font-family: Alegreya;
+   color: white;
+   padding-top: 30px;
+}
+#tasty_pancake  span{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: black;
+   font-size: 40px;
+   font-weight: 700
+}
+/* Tasty Pancake end*/
+/*Breakfast Css Start*/
+#breakfast{
+   margin-bottom: -18px;
+   height: 728px;
+   background-image: url(../img/bg2.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+#breakfast .breakfast_info{
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-weight: 700;
+   font-family:Alegreya; 
+   text-align: center;
+}
+#breakfast .breakfastTitle{
+   line-height: 50px;
+}
+#breakfast .breakfastTitle .breakfastName{
+   font-size: 60px;
+   letter-spacing: 3px;
+   text-shadow: 6px 2px 0 black;
+}
+#breakfast .breakfastTitle .breakfastTime{
+   font-size: 25px;
+   color: #df7f32;
+   text-shadow: 2px 0 0 black;
+   letter-spacing: 2px;
+}
+#breakfast .breakfastTitle span{
+   font-size: 45px;
+}
+#breakfast .menu_item{
+   padding-top: 40px;
+   border-bottom: 2px solid white;
+}
+#breakfast .menu_item p{
+   font-size: 22px;
+   color: #df7f32;
+}
+/* //Breakfast Css End*/
+/*sandwich Css Start*/
+#sandwich{
+   height: 820px;
+   background-image: url(../img/bg3.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+#sandwich .sandwich_title{
+   margin-top: 30px;
+   text-align: center;
+   font-family: Alegreya;
+   font-weight: 700;
+}
+#sandwich .sandwich_title h2{
+   font-size: 45px;
+   font-weight: 700;
+   letter-spacing: 2px;
+   color: #615f5f;
+   text-shadow: 2px 0 0 black;
+}
+#sandwich .sandwich_title p{
+   font-size: 20px;
+   color: #df7f32;
+}
+#sandwich .sandwich_item{
+   border-bottom: 2px solid white;
+   margin: 10px;
+}
+#sandwich .sandwich_item:nth-child(3n){
+   border-bottom: transparent;
+}
+#sandwich .sandwich_item h4{
+   font-weight: 700;
+   font-family:Alegreya; 
+   color: #df7f32;
+}
+#sandwich .sandwich_item p{
+   color: #615f5f;
+   font-size: 14px;
+   padding: 0 80px;
+}
+#sandwich .sandwich_slider {
+  margin-left: 28%;
+}
+#sandwich  .sandwich_slider img{
+   border: 6px solid white;
+}
+#sandwich  .sandwich_slider_item{
+   position: relative;
+}
+#sandwich  .sandwich_slider .priv_arrow{
+   position: absolute;
+   top: 40%;
+   left: -10%;
+   color: #56534c;
+   border: 2px solid #56534c;
+   font-size: 18px;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+   text-align: center;
+   line-height: 32px;
+   display: inline-block;
+   cursor: pointer;
+   z-index: 99;
+   transition: all linear .4s;
+ }
+ #sandwich  .sandwich_slider .priv_arrow:hover{
+   background: #df7f32;
+   color: white;
+   border-color: #df7f32;
+}
+#sandwich  .sandwich_slider .next_arrow{
+   position: absolute;
+   top: 40%;
+   right: 35%;
+   color: #56534c;
+   border: 2px solid #56534c;
+   font-size: 18px;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+   text-align: center;
+   line-height: 32px;
+   display: inline-block;
+   cursor: pointer;
+   z-index: 99;
+   transition: all linear .4s;
+ }
+ #sandwich  .sandwich_slider .next_arrow:hover{
+   background: #df7f32;
+   color: white;
+   border-color: #df7f32;
+}
+#sandwich .overlay_time{
+   background-color: #df7f32;
+   color: white;
+   font-family: Alegreya;
+   width: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   margin-top: 30px;
+   border-radius: 0 20% 0 20%;
+   border: 2px solid white;
+   box-shadow: 2px 2px 2px 2px black;
+}
+#sandwich .overlay_time .timing{
+   padding: 0 10px;
+}
+#sandwich .overlay_time .timing h5{
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 15px;
+}
+#sandwich .overlay_time .timing span{
+   font-weight: 700;
+   font-size: 28px;
+   color: #615f5f;
+}
+#footer a h2{
+   background-color: rgb(243, 243, 243);
+   text-align: center;
+   color: #615f5f;
+   margin-top: 20px;
+   padding: 15px 0;
+   border-top: 3px solid #e0dddd;
+   border-bottom: 3px solid #e0dddd;
+   box-shadow: 0 0 5px 0px black;
+}
+/* //sandwich Css End*/
+/*
+#tasty_pancake .pancake_bg{
+   position: relative;
+}
+#tasty_pancake .pancake_info{
+   position: absolute;
+   top: 10px;
+}
